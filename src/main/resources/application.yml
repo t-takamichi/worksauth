@@ -8,18 +8,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://mongo1:27017,mongo2:27018,mongo3:27019/sns?replSet=dbrs&retryWrites=true
-#  jpa:
-#    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
-#    hibernate:
-#      ddl-auto: none
-#      naming:
-#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-#    show-sql: true
-#
-#  h2:
-#    console:
-#      enabled: true
-#      path: /h2-ui
 
 server:
   port : 8081
